@@ -53,7 +53,11 @@ function website() {
     return `
         <div class="container bordereau">
             <div class="icon">&#128679;</div> <!-- Icône de construction -->
+<<<<<<< HEAD
             <h2>Page en construction</h2>
+=======
+            <h1>Page en construction</h1>
+>>>>>>> 147add5bb82cdfbf12527e83fa8ce97466ba0f7c
             <p>Nous travaillons dur pour rendre cette page disponible bientôt.</p>
             <div class="message">Merci de votre patience !</div>
         </div>
