@@ -188,7 +188,7 @@ function chart(x) {
             `;
             break;
         case 5:
-            chart = ``;
+            chart = website();
     }
     main.innerHTML = chart;
 }
