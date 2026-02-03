@@ -188,37 +188,9 @@ function chart(x) {
             `;
             break;
         case 5:
-            chart = `
-                <h2>Validations Automatisées</h2>
-                <p>Site analysé : <strong>https://lienhart-michael.dynamic-dns.net</strong></p>
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Test</th>
-                            <th>Service</th>
-                            <th>Résultat / Lien</th>
-                        </tr>
-                    </thead>
-                    <tbody id="results">
-                        <tr><td>HTML</td><td>W3C Validator</td><td><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flienhart-michael.dynamic-dns.net%2F" target="_blank">Voir rapport</a></td></tr>
-                        <tr><td>CSS</td><td>W3C CSS Validator</td><td><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flienhart-michael.dynamic-dns.net%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=fr" target="_blank">Voir rapport</a></td></tr>
-                        <tr><td>Observatory</td><td>Mozilla Observatory</td><td><a href="https://developer.mozilla.org/en-US/observatory/analyze?host=lienhart-michael.dynamic-dns.net#history" target="_blank">Voir rapport</a></td></tr>
-                        <tr><td>SSL</td><td>SSL Labs</td><td><a href="https://www.ssllabs.com/ssltest/analyze.html?d=lienhart-michael.dynamic-dns.net" target="_blank">Voir rapport</a></td></tr>
-                        <tr><td>UpGuard</td><td>Security Score</td><td><a href="https://www.upguard.com/instant-security-score/report?c=https%3A%2F%2Flienhart-michael.dynamic-dns.net%2F" target="_blank">Voir rapport</a></td></tr>
-                    </tbody>
-                    <tfooter>
-                        <tr>
-                            <td colspan="4" style="text-align:center; font-size:0.9rem; color:#555;float:left;">
-                            Dernière exécution : ${new Date().toLocaleString('fr-FR')}
-                            </td>
-                        </tr>
-                    </tfooter>
-                </table>
-            `;
+            chart = ``;
     }
     main.innerHTML = chart;
-    pendingTests();
 }
 
 function page(x) {
