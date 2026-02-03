@@ -46,18 +46,6 @@ function logo(m) {
     `;
 }
 
-// Affiche Site en Travaux
-function website() {
-    return `
-        <div class="container bordereau">
-            <div class="icon">&#128679;</div> <!-- Icône de construction -->
-            <h2>Page en construction</h2>
-            <p>Nous travaillons dur pour rendre cette page disponible bientôt.</p>
-            <div class="message">Merci de votre patience !</div>
-        </div>
-    `;
-}
-
 // Affiche header
 function header() {
     return `
