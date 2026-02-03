@@ -12,11 +12,11 @@ window.onload = function () {
         const body = document.querySelector('body');
         body.style.background = "#F8F8F8";
         body.innerHTML = `
-                ${header()}
-                <main>
-                    ${main()}
-                </main>
-                ${footer()}
+            ${header()}
+            <main>
+                ${main()}
+            </main>
+            ${footer()}
         `;
     });
     document.addEventListener('click', function (event) {
@@ -40,19 +40,19 @@ function logo(m) {
         <div id="animate" width="${45 * m}" height="${40 * m}">
             <div class="logo" id="logo" width="${45 * m}" height="${40 * m}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="${45 * m}" height="${40 * m}" viewBox="0 0 ${45 * m} ${40 * m}" fill="none">
-                        <!-- Fond -->
-                        <rect width="${45 * m}" height="${40 * m}" fill="#f2f2f2" stroke="#484848" stroke-width="10" />
-                        <!-- Lettre L -->
-                        <rect x="${5 * m}"  y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#696969" />
-                        <rect x="${5 * m}"  y="${30 * m}" width="${20 * m}" height="${5 * m}"  fill="#696969" />
-                        <!-- Lettre M -->
-                        <rect x="${15 * m}" y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#989898" />
-                        <rect x="${20 * m}" y="${10 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
-                        <rect x="${25 * m}" y="${15 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
-                        <rect x="${30 * m}" y="${10 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
-                        <rect x="${35 * m}" y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#989898" />
-                        <!-- Ponctuation . -->
-                        <rect x="${15 * m}"  y="${30 * m}" width="${5 * m}" height="${5 * m}" fill="#c8c8c8" />
+                    <!-- Fond -->
+                    <rect width="${45 * m}" height="${40 * m}" fill="#f2f2f2" stroke="#484848" stroke-width="10" />
+                    <!-- Lettre L -->
+                    <rect x="${5 * m}"  y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#696969" />
+                    <rect x="${5 * m}"  y="${30 * m}" width="${20 * m}" height="${5 * m}"  fill="#696969" />
+                    <!-- Lettre M -->
+                    <rect x="${15 * m}" y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#989898" />
+                    <rect x="${20 * m}" y="${10 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
+                    <rect x="${25 * m}" y="${15 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
+                    <rect x="${30 * m}" y="${10 * m}" width="${5 * m}"  height="${5 * m}"  fill="#989898" />
+                    <rect x="${35 * m}" y="${5 * m}"  width="${5 * m}"  height="${30 * m}" fill="#989898" />
+                    <!-- Ponctuation . -->
+                    <rect x="${15 * m}"  y="${30 * m}" width="${5 * m}" height="${5 * m}" fill="#c8c8c8" />
                 </svg>
             </div>
         </div>
@@ -85,9 +85,9 @@ function chart(x) {
                 <h2>Mentions légales</h2>
                 <ul>
                     <li>Editeur du site</li>
-                    <p>Nom : <b>Auto-entrepreneur</b><br>Pays d'activité : <b>France</b><br>Site web : <i id='site'>https://lienhart-michael.dynamic-dns.net</i><br>Adresse e-mail de contact : via le <i id="form">formulaire de contact</i></p>
+                    <p>Nom : <b>Auto-entrepreneur</b><br />Pays d'activité : <b>France</b><br />Site web : <i id='site'>https://lienhart-michael.dynamic-dns.net</i><br />Adresse e-mail de contact : via le <i id="form">formulaire de contact</i></p>
                     <li>Hébergement du site</li>
-                    <p>Hébergement : Auto-hébergé par <b id='cv'>LIENHART MICHAEL</b><br>Localisation du server : <b>France</b></p>
+                    <p>Hébergement : Auto-hébergé par <b id='cv'>LIENHART MICHAEL</b><br />Localisation du server : <b>France</b></p>
                     <li>Responsabilité</li>
                     <p>L'éditeur du site met tout en oeuvre pour assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Cependant, il ne saurait être tenu responsable d'erreurs ou d'ommisions, ni des résultats pouvant être obtenus par l'usage de ces informations.</p>
                     <li>Propriété intellectuelle</li>
@@ -143,24 +143,24 @@ function chart(x) {
                 <ol>
                     <li>Objectif de la charte</li>
                     <p>Cette charte définit les principes de collaboration entre <b>LIENHART MICHAËL</b> et toutes personne ou organisation ouhaitant coopérer sur des projets numériques (sites web, robotique, IA, etc.).</p>
-                    <br>
+                    <br />
                     <li>Engagements de <b id='cv'>LIENHART MICHAEL</b></li>
                     <p>
-                        <span></span>Fournir un travail rigoureux, transparent et conforme aux objectifs du projet.<br>
-                        <span></span>Respecter la confidentialité des informations partégées.<br>
+                        <span></span>Fournir un travail rigoureux, transparent et conforme aux objectifs du projet.<br />
+                        <span></span>Respecter la confidentialité des informations partégées.<br />
                         <span></span>Favoriser l'esprit de collaboration, la transmission de connaissances et l'innovation.
                     </p>
-                    <br>
+                    <br />
                     <li>Engagements du partenaire</li>
                     <p>
-                        <span></span>Fournir des informations claires et exactes sur le projet.<br>
-                        <span></span>Respecter les délais et la communication convenue.<br>
+                        <span></span>Fournir des informations claires et exactes sur le projet.<br />
+                        <span></span>Respecter les délais et la communication convenue.<br />
                         <span></span>Reconnaître la contribution de <b id='cv'>LIENHART MICHAEL</b> dans toutes publication ou présentation liée au projet.
                     </p>
-                    <br>
+                    <br />
                     <li>Confidentialité et propriété</li>
                     <p>Les codes, prototypes, ou documents produits restent la propriété de leur auteur, sauf accord écrit contraire.<br>Toute collaboration repose sur le respect mutuel des droits de chacun.</p>
-                    <br>
+                    <br />
                     <li>Ethique et transparence</li>
                     <p>Aucun projet ne sera accepté s'il implique une activité contraire à la loi, à l'éthique ou au respect de la vie privée.</p>
                 </ol>
@@ -171,7 +171,7 @@ function chart(x) {
                 <h2>Mentions sur le droit d'auteur</h2>
                 <ol>
                     <li>Propriété intellectuelle</li>
-                    <p>Tout le contenu publié sur le site (textes, images, codes, projets, idées, vidéos, schémas, etc, etc.) est protégé par le <b>Code de la Propirété Intellectuelle</b>.<br>Il appartient exclusivement à <b id='cv'>LIENHART MICHAEL</b>, sauf mention explicite d'une source externe.</p>
+                    <p>Tout le contenu publié sur le site (textes, images, codes, projets, idées, vidéos, schémas, etc, etc.) est protégé par le <b>Code de la Propirété Intellectuelle</b>.<br />Il appartient exclusivement à <b id='cv'>LIENHART MICHAEL</b>, sauf mention explicite d'une source externe.</p>
                     <li>Licence d'utilisation</li>
                     <p>Sauf indication contraire, les contenus peuvent être partagés à des fins <b>non commerciales</b> à condition de citer clairement l'auteur et la source du site.</p>
                     <li>Interdictions</li>
@@ -202,11 +202,11 @@ function page(x) {
             page = `
                 <h2><u>Présentation</u></h2>
                 <p>Je m’appelle <b>Michaël Lienhart</b>, développeur et passionné de technologies, avec un attrait particulier pour les systèmes concrets, utiles et maîtrisés de bout en bout.</p>
-                <br>
+                <br />
                 <p>Mon parcours s’est construit à la croisée du <b>développement logiciel</b>, de l’<b>électronique</b>, des <b>systèmes embarqués</b> et des <b>réseaux</b>. J’aime comprendre comment les choses fonctionnent réellement : du code qui s’exécute, au matériel qui réagit, jusqu’à l’utilisateur final. Cette approche m’a naturellement conduit à travailler sur des projets très variés, allant d’applications logicielles à des dispositifs physiques intégrant caméras, capteurs, impression, interfaces graphiques ou automatisation.</p>
-                <br>
+                <br />
                 <p>Je m’intéresse particulièrement aux projets où la technique sert un <b>objectif concret</b> : événementiel, médiation, mémoire, innovation locale ou industrielle. Le projet de photobooth que je développe actuellement en est un bon exemple : un système autonome, robuste, pensé pour fonctionner dans le monde réel, sans dépendre de solutions opaques ou surdimensionnées.</p>
-                <br>
+                <br />
                 <p>Sur ce blog, je partage :</p>
                 <ul>
                 <li>des retours d’expérience techniques,</li>
@@ -214,7 +214,7 @@ function page(x) {
                 <li>des projets en cours ou aboutis,</li>
                 <li>et parfois des points de vue plus personnels sur la technologie, son usage et son sens.</li>
                 </ul>
-                <br>
+                <br />
                 <p>Ce blog n’a pas vocation à donner des leçons, mais à <b>documenter</b>, <b>transmettre</b> et <b>échanger</b>. Si certains contenus peuvent être utiles, inspirants ou simplement clairs pour d’autres, alors l’objectif est atteint.</p>
                 <br />
                 <p>Bonne lecture.</p>
@@ -354,7 +354,7 @@ function footer() {
 function main() {
     return `
         <div id="content">
-        ${logo(10)}
+            ${logo(10)}
         </div>
     `;
 }
