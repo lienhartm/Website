@@ -3,7 +3,7 @@
 >
 > ---
 >
->## Synthèse du site web « LM – Lienhart Michaël »
+>### Synthèse du site web « LM – Lienhart Michaël »
 >
 >Le site web de Michaël Lienhart est un site personnel et professionnel dédié à la présentation de son parcours, de ses projets et de ses services en développement logiciel, systèmes, réseaux et applications. Il met l’accent sur la transparence, la maîtrise technique et la sobriété :
 >
@@ -20,6 +20,8 @@
 >Contenu orienté sur la documentation et le partage de connaissances, illustrant des projets personnels, associatifs et professionnels dans le numérique et le développement logiciel.
 >
 >En résumé, le site reflète l’approche de son auteur : rigueur technique, polyvalence et volonté de transmettre des connaissances dans un format simple, efficace et esthétique.
+>
+>---
 >
 >### Objectifs du site
 >
