@@ -304,6 +304,10 @@ function page(x) {
                                 <input type='submit' id='button' value='Envoyer le courriel' >
                             </div>
                         </form>
+                            <figure>
+                                <img src="../image/buymeacoffee.png" alt="buymeacoffee">
+                                <figcaption>...</figcaption>
+                            </figure> 
                     </div>
                 </section>
             `;
