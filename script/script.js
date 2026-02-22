@@ -20,7 +20,10 @@ window.onload = function () {
         `;
     });
     document.addEventListener('click', function (event) {
-        document.getElementById('content').style.backgroundColor = '#fff';
+        const content = document.getElementById('content');
+        if (content) {
+            content.style.backgroundColor = '#fff';
+        }
         if (!event.target || !event.target.id) {
             return;
         } else if (event.target && event.target.id && event.target.id.startsWith('chart-')) {
