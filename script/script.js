@@ -23,6 +23,7 @@ window.onload = function () {
         const content = document.getElementById('content');
         if (content) {
             content.style.backgroundColor = '#fff';
+            content.style.borderRadius = '10px';
         }
         if (!event.target || !event.target.id) {
             return;
