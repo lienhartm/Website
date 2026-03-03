@@ -361,11 +361,18 @@ function chart(x) {
             break;
         case 5:
             chart = `
-                <div class="container bordereau">
-                    <div class="icon">&#128679;</div> <!-- Icône de construction -->
-                    <h2>Page en construction</h2>
+                <div class="container bordereau" role="region" aria-labelledby="construction-title" aria-describedby="construction-message">
+                
+                    <div class="icon" aria-hidden="true">&#128679;</div> <!-- Icône décorative -->
+                
+                    <h2 id="construction-title">Page en construction</h2>
+                
                     <p>Nous travaillons dur pour rendre cette page disponible bientôt.</p>
-                    <div class="message">Merci de votre patience !</div>
+                
+                    <div class="message" id="construction-message">
+                        Merci de votre patience !
+                    </div>
+                
                 </div>
             `;
     }
