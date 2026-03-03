@@ -540,68 +540,77 @@ function page(x) {
             break;
         case 4:
             page = `
-                <h2>Contact</h2>
-                <section class='contact'>
-                    <h2>Contactez-moi !</h2>
+                <h2 id="contact-title">Contact</h2>
+                
+                <section class="contact" role="region" aria-labelledby="contact-title">
+                
+                    <h2 id="contact-subtitle">Contactez-moi !</h2>
+                
                     <div>
-                        <p>N'hésitez pas et prenez contact avec moi pour entreprendre un projet ou pour vous aider dans votre réalisation.</p>
+                        <p aria-labelledby="contact-subtitle">
+                            N'hésitez pas et prenez contact avec moi pour entreprendre un projet ou pour vous aider dans votre réalisation.
+                        </p>
                     </div>
                     <br />
+                
                     <div>
-                        <form id='form'>
-                            <div class='form'>
-                                <div class='field'>
-                                    <label for='from_name'>Votre nom:</label>
-                                    <input type='text' name='user_name' id='from_name'>
+                        <form id="form" aria-labelledby="contact-subtitle" aria-describedby="form-instructions">
+                            <div class="form">
+                                <div class="field">
+                                    <label for="from_name">Votre nom:</label>
+                                    <input type="text" name="user_name" id="from_name" aria-required="true">
                                 </div>
                                 <br />
-                                <div class='field'>
-                                    <label for='user_objet'>Objet:</label>
-                                    <input type='text' name='objet' id='user_objet'>
+                                <div class="field">
+                                    <label for="user_objet">Objet:</label>
+                                    <input type="text" name="objet" id="user_objet" aria-required="true">
                                 </div>
                                 <br />
-                                <div class='field'>
-                                    <label for='message'>Message:</label>
-                                    <br />
-                                    <br />
-                                    <textarea type='text' name='message' id='message' rows='10' cols='100'></textarea>
+                                <div class="field">
+                                    <label for="message">Message:</label>
+                                    <br /><br />
+                                    <textarea name="message" id="message" rows="10" cols="100" aria-required="true"></textarea>
                                 </div>
                                 <br />
-                                <div class='field'>
-                                    <label for='user_email'>Votre email:</label>
-                                    <input type='text' name='user_email' id='user_email'>
+                                <div class="field">
+                                    <label for="user_email">Votre email:</label>
+                                    <input type="text" name="user_email" id="user_email" aria-required="true">
                                 </div>
                             </div>
-                            <div class='submit'>
-                                <input type='submit' id='button' value='Envoyer le courriel' >
+                            <div class="submit">
+                                <input type="submit" id="button" value="Envoyer le courriel" aria-label="Envoyer le formulaire de contact">
                             </div>
+                            <span id="form-instructions" class="sr-only">
+                                Tous les champs sont obligatoires. Merci de remplir correctement le formulaire avant soumission.
+                            </span>
                         </form>
                     </div>
+                
                     <div class="space"></div>
                     <hr>
                     <div class="space"></div>
-                    <h2>Supportez-moi !</h2>
-                    <figure class="box">
-                        <img src='https://lienhartm.github.io/lm/image/buymeacoffee.png' alt='buymeacoffee' width='400'>
+                
+                    <h2 id="support-title">Supportez-moi !</h2>
+                
+                    <figure class="box" role="group" aria-labelledby="support-title">
+                        <img src="https://lienhartm.github.io/lm/image/buymeacoffee.png" alt="Logo Buy Me A Coffee" width="400" aria-hidden="false">
                         <figcaption>
-                            <a href="https://www.buymeacoffee.com/ewzwS4LfCh" target="_blank">
-                                <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 200px !important;">
+                            <a href="https://www.buymeacoffee.com/ewzwS4LfCh" target="_blank" aria-label="Soutenir l'auteur via Buy Me A Coffee">
+                                <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 200px !important;">
                             </a>
                         </figcaption>
                     </figure>
-                    <p class="message">
+                
+                    <p class="message" aria-labelledby="support-title">
                         Ce site est développé de manière indépendante.
-                        <br />
-                        <br />
+                        <br /><br />
                         Si mon travail vous est utile, vous pouvez me soutenir en m’offrant un café ☕
-                        <br />
-                        <br />
+                        <br /><br />
                         Votre contribution m’aide à continuer à créer et à améliorer mes projets.
-                        <br />
-                        <br />
-                        <br />
+                        <br /><br /><br />
                         Merci pour votre confiance et votre soutien !
                     </p>
+                
                 </section>
             `;
             break;
