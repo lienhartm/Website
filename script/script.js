@@ -386,52 +386,56 @@ function page(x) {
     switch (x) {
         case 1:
             page = `
-                <h2><u>Présentation</u></h2>
-                <p>
+                <h2 id="presentation-title"><u>Présentation</u></h2>
+                
+                <p aria-labelledby="presentation-title">
                     Je m’appelle 
-                    <b>Michaël Lienhart</b>
-                    , développeur et passionné de technologies, avec un attrait particulier pour les systèmes concrets, utiles et maîtrisés de bout en bout.
+                    <b>Michaël Lienhart</b>,
+                    développeur et passionné de technologies, avec un attrait particulier pour les systèmes concrets, utiles et maîtrisés de bout en bout.
                 </p>
                 <br>
-                <p>
-                    <img class="left" src="image/coding.png" alt="coding" width="80">
+                
+                <p aria-labelledby="presentation-title">
+                    <img class="left" src="image/coding.png" alt="Icône codage" width="80" aria-hidden="false">
                     Mon parcours s’est construit à la croisée du 
-                    <b>développement logiciel</b>
-                    , de l’
-                    <b>électronique</b>
-                    , des 
-                    <b>systèmes embarqués</b>
-                     et des 
-                     <b>réseaux</b>
-                     . J’aime comprendre comment les choses fonctionnent réellement : du code qui s’exécute, au matériel qui réagit, jusqu’à l’utilisateur final. Cette approche m’a naturellement conduit à travailler sur des projets très variés, allant d’applications logicielles à des dispositifs physiques intégrant caméras, capteurs, impression, interfaces graphiques ou automatisation.
+                    <b>développement logiciel</b>,
+                    de l’
+                    <b>électronique</b>,
+                    des 
+                    <b>systèmes embarqués</b> 
+                    et des 
+                    <b>réseaux</b>.
+                    J’aime comprendre comment les choses fonctionnent réellement : du code qui s’exécute, au matériel qui réagit, jusqu’à l’utilisateur final. Cette approche m’a naturellement conduit à travailler sur des projets très variés, allant d’applications logicielles à des dispositifs physiques intégrant caméras, capteurs, impression, interfaces graphiques ou automatisation.
                 </p>
                 <br>
-                <p>
-                    <img class="right" src="image/interest.png" alt="interest" width="80">
+                
+                <p aria-labelledby="presentation-title">
+                    <img class="right" src="image/interest.png" alt="Icône centre d’intérêt" width="80" aria-hidden="false">
                     Je m’intéresse particulièrement aux projets où la technique sert un 
-                    <b>objectif concret</b>
-                     : événementiel, médiation, mémoire, innovation locale ou industrielle. Le projet de photobooth que je développe actuellement en est un bon exemple : un système autonome, robuste, pensé pour fonctionner dans le monde réel, sans dépendre de solutions opaques ou surdimensionnées.
+                    <b>objectif concret</b> : événementiel, médiation, mémoire, innovation locale ou industrielle. 
+                    Le projet de photobooth que je développe actuellement en est un bon exemple : un système autonome, robuste, pensé pour fonctionner dans le monde réel, sans dépendre de solutions opaques ou surdimensionnées.
                 </p>
                 <br>
-                <p>Sur ce blog, je partage :</p>
-                <ul>
+                
+                <p aria-labelledby="presentation-title">Sur ce blog, je partage :</p>
+                
+                <ul aria-labelledby="presentation-title">
                     <li>des retours d’expérience techniques,</li>
                     <li>des réflexions sur la conception logicielle et système,</li>
                     <li>des projets en cours ou aboutis,</li>
                     <li>et parfois des points de vue plus personnels sur la technologie, son usage et son sens.</li>
                 </ul>
                 <br>
-                <p>
+                
+                <p aria-labelledby="presentation-title">
                     Ce blog n’a pas vocation à donner des leçons, mais à 
-                    <b>documenter</b>
-                    , 
-                    <b>transmettre</b>
-                     et 
-                    <b>échanger</b>
-                    . Si certains contenus peuvent être utiles, inspirants ou simplement clairs pour d’autres, alors l’objectif est atteint.
+                    <b>documenter</b>, 
+                    <b>transmettre</b> et 
+                    <b>échanger</b>. Si certains contenus peuvent être utiles, inspirants ou simplement clairs pour d’autres, alors l’objectif est atteint.
                 </p>
                 <br />
-                <p>Bonne lecture.</p>
+                
+                <p aria-labelledby="presentation-title">Bonne lecture.</p>
             `;
             break;
         case 2:
