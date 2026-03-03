@@ -2,9 +2,9 @@
 
 window.onload = function () {
     document.body.innerHTML = `
-        <div id="scene">
-            <div id="card">
-            ${logo(10)}
+        <div id="scene" role="region" aria-label="Scène principale contenant la carte avec le logo">
+            <div id="card" role="group" aria-label="Carte affichant le logo">
+                ${logo(10)}
             </div>
         </div>
     `;
