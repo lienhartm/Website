@@ -271,45 +271,54 @@ function chart(x) {
             break;
         case 3:
             chart = `
-                <h2>Charte de partenariat / collaboration</h2>
-                <ol>
-                    <li>Objectif de la charte</li>
-                    <p>
+                <h2 id="charte-title">Charte de partenariat / collaboration</h2>
+                
+                <ol aria-labelledby="charte-title">
+                
+                    <li id="objectif">Objectif de la charte</li>
+                    <p aria-labelledby="objectif">
                         Cette charte définit les principes de collaboration entre 
                         <b>LIENHART MICHAËL</b>
-                         et toutes personne ou organisation ouhaitant coopérer sur des projets numériques (sites web, robotique, IA, etc.).
+                        et toute personne ou organisation souhaitant coopérer sur des projets numériques (sites web, robotique, IA, etc.).
                     </p>
                     <br>
-                    <li>
+                
+                    <li id="engagement-lienhart">
                         Engagements de 
-                        <b id='cv'>LIENHART MICHAEL</b>
+                        <b id="cv">LIENHART MICHAEL</b>
                     </li>
-                    <p>
+                    <p aria-labelledby="engagement-lienhart">
                         <span></span>Fournir un travail rigoureux, transparent et conforme aux objectifs du projet.
                         <br>
-                        <span></span>Respecter la confidentialité des informations partégées.
+                        <span></span>Respecter la confidentialité des informations partagées.
                         <br>
                         <span></span>Favoriser l'esprit de collaboration, la transmission de connaissances et l'innovation.
                     </p>
-                    <br />
-                    <li>Engagements du partenaire</li>
-                    <p>
+                    <br>
+                
+                    <li id="engagement-partenaire">Engagements du partenaire</li>
+                    <p aria-labelledby="engagement-partenaire">
                         <span></span>Fournir des informations claires et exactes sur le projet.
                         <br>
                         <span></span>Respecter les délais et la communication convenue.
                         <br>
-                        <span></span>Reconnaître la contribution de <b id='cv'>LIENHART MICHAEL</b> dans toutes publication ou présentation liée au projet.
+                        <span></span>Reconnaître la contribution de <b id="cv">LIENHART MICHAEL</b> dans toute publication ou présentation liée au projet.
                     </p>
-                    <br />
-                    <li>Confidentialité et propriété</li>
-                    <p>
+                    <br>
+                
+                    <li id="confidentialite">Confidentialité et propriété</li>
+                    <p aria-labelledby="confidentialite">
                         Les codes, prototypes, ou documents produits restent la propriété de leur auteur, sauf accord écrit contraire.
                         <br>
                         Toute collaboration repose sur le respect mutuel des droits de chacun.
                     </p>
                     <br>
-                    <li>Ethique et transparence</li>
-                    <p>Aucun projet ne sera accepté s'il implique une activité contraire à la loi, à l'éthique ou au respect de la vie privée.</p>
+                
+                    <li id="ethique">Ethique et transparence</li>
+                    <p aria-labelledby="ethique">
+                        Aucun projet ne sera accepté s'il implique une activité contraire à la loi, à l'éthique ou au respect de la vie privée.
+                    </p>
+                
                 </ol>
             `;
             break;
