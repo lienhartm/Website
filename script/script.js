@@ -643,15 +643,20 @@ function page(x) {
 // Affiche footer
 function footer() {
     return `
-        <footer>
-            <nav class="chart">
-                <nav id="chart-0">Mentions légales</nav>
-                <nav id="chart-1">Politique de confidentialité</nav>
-                <nav id="chart-2">Conditions d'utilisation</nav>
-                <nav id="chart-3">Charte partenariat</nav>
-                <nav id="chart-4">Droit d'auteur</nav>
+        <footer role="contentinfo" aria-label="Pied de page principal">
+        
+            <nav class="chart" role="navigation" aria-label="Liens du footer">
+                <nav id="chart-0" role="link" aria-label="Mentions légales">Mentions légales</nav>
+                <nav id="chart-1" role="link" aria-label="Politique de confidentialité">Politique de confidentialité</nav>
+                <nav id="chart-2" role="link" aria-label="Conditions d'utilisation">Conditions d'utilisation</nav>
+                <nav id="chart-3" role="link" aria-label="Charte partenariat">Charte partenariat</nav>
+                <nav id="chart-4" role="link" aria-label="Droit d'auteur">Droit d'auteur</nav>
             </nav>
-            <h5 id="chart-5">LIENHART MICHAËL - 2025 LM &copy; - Validations</h5>
+        
+            <h5 id="chart-5">
+                LIENHART MICHAËL - 2025 LM &copy; - Validations
+            </h5>
+        
         </footer>
     `;
 }
