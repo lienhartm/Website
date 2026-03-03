@@ -13,7 +13,7 @@ window.onload = function () {
         body.style.background = "#F8F8F8";
         body.innerHTML = `
             ${header()}
-            <main>
+            <main role="main" aria-label="Contenu principal du site">
                 ${main()}
             </main>
             ${footer()}
