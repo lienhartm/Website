@@ -393,10 +393,14 @@ function page(x) {
                     <b>Michaël Lienhart</b>,
                     développeur et passionné de technologies, avec un attrait particulier pour les systèmes concrets, utiles et maîtrisés de bout en bout.
                 </p>
+
+                <br>
+
+                <img class="left" src="image/coding.png" alt="Icône codage" width="80" aria-hidden="false">
+
                 <br>
                 
                 <p aria-labelledby="presentation-title">
-                    <img class="left" src="image/coding.png" alt="Icône codage" width="80" aria-hidden="false">
                     Mon parcours s’est construit à la croisée du 
                     <b>développement logiciel</b>,
                     de l’
@@ -407,10 +411,14 @@ function page(x) {
                     <b>réseaux</b>.
                     J’aime comprendre comment les choses fonctionnent réellement : du code qui s’exécute, au matériel qui réagit, jusqu’à l’utilisateur final. Cette approche m’a naturellement conduit à travailler sur des projets très variés, allant d’applications logicielles à des dispositifs physiques intégrant caméras, capteurs, impression, interfaces graphiques ou automatisation.
                 </p>
+
+                <br>
+
+                <img class="right" src="image/interest.png" alt="Icône centre d’intérêt" width="80" aria-hidden="false">
+
                 <br>
                 
                 <p aria-labelledby="presentation-title">
-                    <img class="right" src="image/interest.png" alt="Icône centre d’intérêt" width="80" aria-hidden="false">
                     Je m’intéresse particulièrement aux projets où la technique sert un 
                     <b>objectif concret</b> : événementiel, médiation, mémoire, innovation locale ou industrielle. 
                     Le projet de photobooth que je développe actuellement en est un bon exemple : un système autonome, robuste, pensé pour fonctionner dans le monde réel, sans dépendre de solutions opaques ou surdimensionnées.
@@ -445,14 +453,24 @@ function page(x) {
                 <p aria-labelledby="parcours-title">
                     M'étant formé dans le domaine du numérique et de l’informatique, avec un parcours orienté vers le développement logiciel, les systèmes, les réseaux et la cybersécurité.
                 </p>
+
+                <br>
+
+                <img class="left" src="image/academy.png" alt="Icône académie" width="80" aria-hidden="false">
+
+                <br>
                 
                 <p aria-labelledby="parcours-title">
-                    <img class="left" src="image/academy.png" alt="Icône académie" width="80" aria-hidden="false">
                     J'ai suivi le parcours Graduate – Technicien supérieur systèmes, réseaux et cybersécurité au sein de Studi Formation, me permettant de consolider des compétences en administration système, réseaux, sécurité informatique et bonnes pratiques professionnelles dans un environnement structuré.
                 </p>
+
+                <br>
+
+                <img class="right" src="image/roadmap.png" alt="Icône roadmap" width="80" aria-hidden="false">
+
+                <br>
                 
                 <p aria-labelledby="parcours-title">
-                    <img class="right" src="image/roadmap.png" alt="Icône roadmap" width="80" aria-hidden="false">
                     Mon parcours académique s’inscrit dans une progression cohérente au sein des métiers de l’informatique, avec une spécialisation en 
                     <b>conception, développement et tests de logiciels</b>. J'ai suivi sa formation à l’
                     <b>UHA 4.0 – Université de Haute-Alsace (Mulhouse)</b>, où j'ai acquis des bases solides en programmation, développement web, architecture du web et technologies modernes, dans un cadre pédagogique s’appuyant sur la 
@@ -475,14 +493,24 @@ function page(x) {
                     <li>la gestion de projet et le travail collaboratif : Jira, Confluence, Slack, Jitsi,</li>
                     <li>ainsi que plusieurs certifications (Pix, bases Java, bases de données, architecture du web, développement côté client).</li>
                 </ul>
+
+                <br>
+
+                <img class="left" src="image/competence.png" alt="Icône compétence" width="80" aria-hidden="false">
+
+                <br>
                 
                 <p aria-labelledby="parcours-title">
-                    <img class="left" src="image/competence.png" alt="Icône compétence" width="80" aria-hidden="false">
                     Mes expériences professionnelles dans le numérique incluent des stages en développement web et en transformation numérique, au cours desquels il a participé à la création de sites web, au développement de fonctionnalités, à l’amélioration de l’expérience utilisateur et à la collaboration avec des équipes pédagogiques et techniques.
                 </p>
+
+                <br>
+
+                <img class="right" src="image/work.png" alt="Icône travail" width="80" aria-hidden="false">
+
+                <br>
                 
                 <p aria-labelledby="parcours-title">
-                    <img class="right" src="image/work.png" alt="Icône travail" width="80" aria-hidden="false">
                     J'ai pu conduire et développer de nombreux projets numériques concrets, tels que des applications de gestion (devis/facturation, questionnaires, audits, tournois sportifs), des outils métiers, ainsi que des sites web fonctionnels, démontrant sa capacité à concevoir, développer et mettre en œuvre des solutions adaptées aux besoins réels.
                 </p>
                 
@@ -580,9 +608,10 @@ function page(x) {
                             <div class="submit">
                                 <input type="submit" id="button" value="Envoyer le courriel" aria-label="Envoyer le formulaire de contact">
                             </div>
-                            <span id="form-instructions" class="sr-only">
+                            <br /><br />
+                            <p id="form-instructions" class="sr-only">
                                 Tous les champs sont obligatoires. Merci de remplir correctement le formulaire avant soumission.
-                            </span>
+                            </p>
                         </form>
                     </div>
                 
@@ -590,26 +619,28 @@ function page(x) {
                     <hr>
                     <div class="space"></div>
                 
-                    <h2 id="support-title">Supportez-moi !</h2>
-                
-                    <figure class="box" role="group" aria-labelledby="support-title">
-                        <img src="https://lienhartm.github.io/lm/image/buymeacoffee.png" alt="Logo Buy Me A Coffee" width="400" aria-hidden="false">
-                        <figcaption>
-                            <a href="https://www.buymeacoffee.com/ewzwS4LfCh" target="_blank" aria-label="Soutenir l'auteur via Buy Me A Coffee">
-                                <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 200px !important;">
-                            </a>
-                        </figcaption>
-                    </figure>
-                
-                    <p class="message" aria-labelledby="support-title">
-                        Ce site est développé de manière indépendante.
-                        <br /><br />
-                        Si mon travail vous est utile, vous pouvez me soutenir en m’offrant un café ☕
-                        <br /><br />
-                        Votre contribution m’aide à continuer à créer et à améliorer mes projets.
-                        <br /><br /><br />
-                        Merci pour votre confiance et votre soutien !
-                    </p>
+                    <div>
+                        <h2 id="support-title">Supportez-moi !</h2>
+                    
+                        <figure class="box" role="group" aria-labelledby="support-title">
+                            <img src="https://lienhartm.github.io/lm/image/buymeacoffee.png" alt="Logo Buy Me A Coffee" width="400" aria-hidden="false">
+                            <figcaption>
+                                <a href="https://www.buymeacoffee.com/ewzwS4LfCh" target="_blank" aria-label="Soutenir l'auteur via Buy Me A Coffee">
+                                    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 200px !important;">
+                                </a>
+                            </figcaption>
+                        </figure>
+                    
+                        <p class="message" aria-labelledby="support-title">
+                            Ce site est développé de manière indépendante.
+                            <br /><br />
+                            Si mon travail vous est utile, vous pouvez me soutenir en m’offrant un café ☕
+                            <br /><br />
+                            Votre contribution m’aide à continuer à créer et à améliorer mes projets.
+                            <br /><br /><br />
+                            Merci pour votre confiance et votre soutien !
+                        </p>
+                    </div>
                 
                 </section>
             `;

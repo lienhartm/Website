@@ -323,3 +323,104 @@ figcaption {
     float: right;
     margin-left: 10px;
 }
+
+.sr-only {
+    font-size: 12px;
+}
+
+.sr-only:before {
+    content: "*";
+    padding-inline: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    div#animate {
+        width: 200px;
+        margin: 0;
+        padding: 0;
+    }
+
+    div#logo {
+        height: 180px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    svg {
+        width: 175px;
+        padding-top: 0;
+        margin-top: 0;
+        height: 160px;
+    }
+
+    header {
+        height: 200px;
+        flex-direction: column;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    main {
+        font-size: 10px;
+    }
+
+    section {
+        width: 90%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    input[type="text"] {
+        margin-left: 0;
+        width: 130px
+    }
+
+    .field {
+        margin: 0;
+    }
+
+    textarea {
+        width: 130px;
+        box-sizing: border-box;
+    }
+
+    .box {
+        float: none;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    img {
+        width: 160px;
+    }
+
+    figcaption {
+        margin-left: -20px;
+    }
+
+    p.message {
+        margin: 20px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .chart {
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    footer>h5 {
+        margin-top: 50px;
+    }
+
+}
