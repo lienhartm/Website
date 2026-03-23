@@ -388,7 +388,7 @@ function page(x) {
             page = `
                 <h2 id="presentation-title"><u>Présentation</u></h2>
                 
-                <p aria-labelledby="presentation-title">
+                <p class="border-left" aria-labelledby="presentation-title">
                     Je m’appelle 
                     <b>Michaël Lienhart</b>,
                     développeur et passionné de technologies, avec un attrait particulier pour les systèmes concrets, utiles et maîtrisés de bout en bout.
@@ -400,7 +400,7 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="presentation-title">
+                <p class="border-right" aria-labelledby="presentation-title">
                     Mon parcours s’est construit à la croisée du 
                     <b>développement logiciel</b>,
                     de l’
@@ -418,7 +418,7 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="presentation-title">
+                <p class="border-left" aria-labelledby="presentation-title">
                     Je m’intéresse particulièrement aux projets où la technique sert un 
                     <b>objectif concret</b> : événementiel, médiation, mémoire, innovation locale ou industrielle. 
                     Le projet de photobooth que je développe actuellement en est un bon exemple : un système autonome, robuste, pensé pour fonctionner dans le monde réel, sans dépendre de solutions opaques ou surdimensionnées.
@@ -435,7 +435,7 @@ function page(x) {
                 </ul>
                 <br>
                 
-                <p aria-labelledby="presentation-title">
+                <p class="border-right" aria-labelledby="presentation-title">
                     Ce blog n’a pas vocation à donner des leçons, mais à 
                     <b>documenter</b>, 
                     <b>transmettre</b> et 
@@ -450,7 +450,7 @@ function page(x) {
             page = `
                 <h2 id="parcours-title">Parcours</h2>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-left" aria-labelledby="parcours-title">
                     M'étant formé dans le domaine du numérique et de l’informatique, avec un parcours orienté vers le développement logiciel, les systèmes, les réseaux et la cybersécurité.
                 </p>
 
@@ -460,7 +460,7 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-right" aria-labelledby="parcours-title">
                     J'ai suivi le parcours Graduate – Technicien supérieur systèmes, réseaux et cybersécurité au sein de Studi Formation, me permettant de consolider des compétences en administration système, réseaux, sécurité informatique et bonnes pratiques professionnelles dans un environnement structuré.
                 </p>
 
@@ -470,7 +470,7 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-left" aria-labelledby="parcours-title">
                     Mon parcours académique s’inscrit dans une progression cohérente au sein des métiers de l’informatique, avec une spécialisation en 
                     <b>conception, développement et tests de logiciels</b>. J'ai suivi sa formation à l’
                     <b>UHA 4.0 – Université de Haute-Alsace (Mulhouse)</b>, où j'ai acquis des bases solides en programmation, développement web, architecture du web et technologies modernes, dans un cadre pédagogique s’appuyant sur la 
@@ -478,7 +478,7 @@ function page(x) {
                     <b>framework Scrum</b>.
                 </p>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-right" aria-labelledby="parcours-title">
                     Lors de ma formation en développement web et web mobile à Elan Formation, j’ai suivi un parcours individualisé de trois mois vers les métiers du développement informatique, adapté à mes besoins, qui m’a permis d’acquérir de l’expérience en maquettage, modélisation UML et conception de sites web, tout en me formant et en pratiquant activement le développement web et web mobile.
                 </p>
                 
@@ -500,7 +500,7 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-left" aria-labelledby="parcours-title">
                     Mes expériences professionnelles dans le numérique incluent des stages en développement web et en transformation numérique, au cours desquels il a participé à la création de sites web, au développement de fonctionnalités, à l’amélioration de l’expérience utilisateur et à la collaboration avec des équipes pédagogiques et techniques.
                 </p>
 
@@ -510,11 +510,11 @@ function page(x) {
 
                 <br>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-right" aria-labelledby="parcours-title">
                     J'ai pu conduire et développer de nombreux projets numériques concrets, tels que des applications de gestion (devis/facturation, questionnaires, audits, tournois sportifs), des outils métiers, ainsi que des sites web fonctionnels, démontrant sa capacité à concevoir, développer et mettre en œuvre des solutions adaptées aux besoins réels.
                 </p>
                 
-                <p aria-labelledby="parcours-title">
+                <p class="border-left" aria-labelledby="parcours-title">
                     Mon profil se distingue par une forte polyvalence, une approche structurée, une capacité d’adaptation, et une volonté d’évoluer dans les métiers de l’informatique et du numérique.
                 </p>            `;
             break;
