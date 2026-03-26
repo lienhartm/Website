@@ -483,7 +483,7 @@ function page(x) {
                 </p>
                 
                 <p aria-labelledby="parcours-title">
-                    Il dispose de compétences techniques étendues, couvrant :
+                    Je dispose de compétences techniques étendues, couvrant :
                 </p>
                 
                 <ul aria-labelledby="parcours-title">
